@@ -1,0 +1,108 @@
+\documentclass[a4paper, 10pt] {article}
+\usepackage{polski}
+\usepackage{amsmath, amsfonts, amsthm}
+\usepackage{amssymb,latexsym}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\begin{document}
+
+    \textmd{LABOLATORIUM 8}
+    \\
+    \\
+    \\
+    \underline{Przykład 1}
+    \\
+    Niech a i b będą dowolnymi liczbami dodatnimi. Korzystając z indukcji matematycznej wykazać, że
+    \begin{equation}
+         (a+b)^{n} < 2^{n} ( a^{n}+b^{n} )
+    \end{equation}
+\\
+\\
+\underline{Przykład 2 - cdots}
+\\
+
+Korzystając z zależności między średnimi wykazać, że dla dowolnej liczby naturalnej
+n prawdziwa jest nierówność:$\frac{1}{n+2}+\frac{1}{n+3}+\frac{1}{n+4}+\cdots+\frac{1}{3n+4} \geq1 $
+\\
+\\
+\underline{Przykład 3 - left,right}
+Wykaż, że:
+\\ a)$\left (^{30}_{29}  \right)+(^{31}_{29})=(^{32}_{30})-(^{5}_{5}) $
+\\
+b)
+\begin{equation}
+    \sum_{k=0}^{3n}(-1)^k(^{3n}_{k})=0
+\end{equation}
+ \\
+\\
+\underline{Przykład 4 - mathbb, array}Niech f : R → R będzie funkcją daną wzorem:
+\begin{equation}
+    f(x)=\left \{\begin{array}{ll} −x^2 - 6x - 8 & x\leq-3\\x + 2 & x>-3
+    \end{arry}\right
+\end{equation}
+\\
+\\
+\underline {Przykład 5}
+    \\
+    \begin{center}
+    $ \lim\limits_{n \to \infty}\frac{\sqrt[3]{5}+\sqrt{2}n^{3}}{3n^{2}+1}$
+    \end{center}
+ \\
+\\
+\underline{Przykład 6}
+    \begin{center}
+        $\sum\limits_{n=0}^{\infty} \frac{\sin^{2}n\pi}{\ln3n}$
+    \end{center}
+\\
+\\
+\underline{Przykład 7}
+    \begin{center}
+        $\int_{3}^{5} (x^{2}-5x+3)\cdot x dx$
+    \end{center}
+\\
+\\
+\underline{Przykład 8}
+    \begin{center}
+    $\forall \varepsilon>0  \exists n_0 \forall  
+    n\geq n_0 |a_n-3|<\varepsilon$$
+    \end{center} 
+\\
+\\
+\underline{Przykład 9 - theorem}
+ 	\begin{theorem}\label{e} 
+ 	Każdy ciąg $\{x_n\}$ zbieżny w przestrzeni $(X,d)$ spełnia
+ 	\end{theorem}
+\\
+\\
+\\
+\underline{Przykład 15 - pmatrix}
+    A_{m,n} = \begin{pmatrix}
+    a_{1,1} & a_{1,2} & a_{1,3} & ... & a_{1,n}\\
+    a_{2,1} & a_{2,2} & a_{2,3} & ... & a_{2,n}\\
+    \vdots & \vdots & \vdots & \ddots & \vdots \\
+    a_{m,1} & a_{m,2} & a_{m,3} & ... & a_{m,n}
+\end{pmatrix}
+    
+dla dowolnego n\in\mathbb{N} 
+
+\\
+\\
+\underline{Przykład 10 - tabular }
+Utwórz tabelę (tekst w pierwszej kolumnie powinien być wy-
+równany do lewej, natomiast w drugej i trzeciej wyśrodkowany)
+	\begin{table}[!h]
+	\centering
+	\begin{tabular}{|l|c|c|}
+	\hline
+	% after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+	x & 0 & $\sqrt{3}$\\
+	\hline
+	f(x) & 3 & 5\\
+	\hline
+	\end{tabular}\\
+	\caption{Tabela wartości funkcji}
+	\label{tab:funkcja_f}
+	\end{table}
+
+\end{document}
